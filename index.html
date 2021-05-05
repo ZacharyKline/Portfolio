@@ -75,14 +75,25 @@
 			</div>
 		</nav>
 
-		<div id="Content" class='p-3 mb-2 text-dark'>
-            <div className='titleSpot'>
-						<img className='handsome' src='./assets/images/Zachicon.png' alt='Zachary Kline' />
-						<h1>Zachary Kline</h1>
-						<h3>Software Developer</h3>
-					</div>
-					<p>Full Stack software engineer looking for opportunities locally and globally</p>
-			<div id="about">
+		<div id="Content" class="p-3 mb-2 text-dark">
+			<section class="resume-section">
+				<div className="titleSpot">
+					<img
+						className="handsome"
+						src="./assets/images/Zachicon.png"
+						alt="Zachary Kline"
+					/>
+					<h1>Zachary Kline</h1>
+					<h3>Software Developer</h3>
+				</div>
+				<p>
+					Full Stack software engineer looking for opportunities locally and
+					globally
+				</p>
+			</section>
+			<hr class="m-0" />
+            <section class='resume-section' id="about">
+			<div >
 				<h1>About Me:</h1>
 				<p class="background">
 					Originally from Pennsylvania, currently residing in Indiana. After
@@ -100,121 +111,132 @@
 					<a href="mailto: zkline888@gmail.com"> zkline888@gmail.com</a>.
 				</p>
 			</div>
-            <div id='projects'>
-			<div class="projectsList">
-				<div class="project">
-					<h1>Projects</h1>
-					<p>
-						Click on the title of the project to access the github repo for the
-						project (if available).
-					</p>
-					<div class="projectsSpot">
-						<div class="singleProject">
-							<img src="./assets/images/kwitter.png" alt="Kwitter project" />
+            </section>
+			<hr class="m-0" />
+           <section id="projects">
+			<div >
+				<div class="projectsList">
+					<div class="project">
+						<h1>Projects</h1>
+						<p>
+							Click on the title of the project to access the github repo for
+							the project (if available).
+						</p>
+						<div class="projectsSpot">
+							<div class="singleProject">
+								<img src="./assets/images/kwitter.png" alt="Kwitter project" />
 
-							<h1>
-								<a target="_blank" href="">Kwitter</a>
-							</h1>
+								<h1>
+									<a target="_blank" href="">Kwitter</a>
+								</h1>
 
-							<p>
-								Group project creating a clone of Twitter/other social media
-								programs. Created in React/Redux. I acted as the Project Manager
-								and Scrum Master for the team. Created over the course of two
-								one week sprints utilizing a premade API.
-							</p>
-						</div>
-						<div class="singleProject">
-							<img src="./assets/images/kiteMail.png" alt="KITe project" />
+								<p>
+									Group project creating a clone of Twitter/other social media
+									programs. Created in React/Redux. I acted as the Project
+									Manager and Scrum Master for the team. Created over the course
+									of two one week sprints utilizing a premade API.
+								</p>
+							</div>
+							<div class="singleProject">
+								<img src="./assets/images/kiteMail.png" alt="KITe project" />
 
-							<h1>
-								<a>Kite Mail</a>
-							</h1>
+								<h1>
+									<a>Kite Mail</a>
+								</h1>
 
-							<p>
-								REDi Pitch Night top prize winner. Team built, Full stack
-								application, built with the intention to provide a simple way to
-								upload and send photos to loved ones who are currently
-								incarcerated. Built with React/Redux
-							</p>
-						</div>
-						<div class="singleProject">
-							<img
-								src="./assets/images/connect.png"
-								alt="Connect Four project"
-							/>
+								<p>
+									REDi Pitch Night top prize winner. Team built, Full stack
+									application, built with the intention to provide a simple way
+									to upload and send photos to loved ones who are currently
+									incarcerated. Built with React/Redux
+								</p>
+							</div>
+							<div class="singleProject">
+								<img
+									src="./assets/images/connect.png"
+									alt="Connect Four project"
+								/>
 
-							<h1>
-								<a
-									target="_blank"
-									href="https://github.com/ZacharyKline/ConnectFour"
-									>Connect Four</a
-								>
-							</h1>
+								<h1>
+									<a
+										target="_blank"
+										href="https://github.com/ZacharyKline/ConnectFour"
+										>Connect Four</a
+									>
+								</h1>
 
-							<p>
-								Created using Javascript, a fun game featuring me and my
-								classmate Matt. To create the win condition I utilized nested
-								for loops which iterated over an array of arrays using x and y
-								axis, I also utilized animations to make the game more fun.
-							</p>
-						</div>
-						<div class="singleProject">
-							<img src="./assets/images/spacefarm.png" alt="Space Farm" />
+								<p>
+									Created using Javascript, a fun game featuring me and my
+									classmate Matt. To create the win condition I utilized nested
+									for loops which iterated over an array of arrays using x and y
+									axis, I also utilized animations to make the game more fun.
+								</p>
+							</div>
+							<div class="singleProject">
+								<img src="./assets/images/spacefarm.png" alt="Space Farm" />
 
-							<h1>
-								<a
-									target="_blank"
-									href="https://github.com/ZacharyKline/SpaceFarm"
-									>Space Farm</a
-								>
-							</h1>
+								<h1>
+									<a
+										target="_blank"
+										href="https://github.com/ZacharyKline/SpaceFarm"
+										>Space Farm</a
+									>
+								</h1>
 
-							<p>
-								Browser Game where you take control of a space farmer who needs
-								to generate resources to fire into, and plug up a black hole
-								threatening your planet. Done in functional javascript, still in
-								development.
-							</p>
-						</div>
-						<div class="singleProject">
-							<img src="./assets/images/iss.png" alt="ISS Project" />
+								<p>
+									Browser Game where you take control of a space farmer who
+									needs to generate resources to fire into, and plug up a black
+									hole threatening your planet. Done in functional javascript,
+									still in development.
+								</p>
+							</div>
+							<div class="singleProject">
+								<img src="./assets/images/iss.png" alt="ISS Project" />
 
-							<h1>
-								<a
-									target="_blank"
-									href="https://github.com/ZacharyKline/backend-iss-location-assessment"
-									>ISS Tracker</a
-								>
-							</h1>
+								<h1>
+									<a
+										target="_blank"
+										href="https://github.com/ZacharyKline/backend-iss-location-assessment"
+										>ISS Tracker</a
+									>
+								</h1>
 
-							<p>
-								A software to track the current location of the International
-								Space Station. This program utilizes Python, and information
-								gained from the ISS Location Now API.
-							</p>
-						</div>
-						<div class="singleProject">
-							<img src="./assets/images/gamefaqs.jpeg" alt="GameFAQs project" />
+								<p>
+									A software to track the current location of the International
+									Space Station. This program utilizes Python, and information
+									gained from the ISS Location Now API.
+								</p>
+							</div>
+							<div class="singleProject">
+								<img
+									src="./assets/images/gamefaqs.jpeg"
+									alt="GameFAQs project"
+								/>
 
-							<h1>
-								<a
-									target="_blank"
-									href="https://github.com/ZacharyKline/GameFaqs_Backend"
-									>GameFAQs clone</a
-								>
-							</h1>
+								<h1>
+									<a
+										target="_blank"
+										href="https://github.com/ZacharyKline/GameFaqs_Backend"
+										>GameFAQs clone</a
+									>
+								</h1>
 
-							<p>
-								Group project: A recreation of the classic gaming website, in a
-								full-stack single program application using Django. I acted as
-								Project Manager for the project.
-							</p>
+								<p>
+									Group project: A recreation of the classic gaming website, in
+									a full-stack single program application using Django. I acted
+									as Project Manager for the project.
+								</p>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-        </div>
-			<div class="icons" id='tech'>
+            </section>
+			<hr class="m-0" />
+            <section id="tech">
+			<div class="icons" >
+                <h1>Tech I've worked with:</h1>
+                <p>Some of the tech stacks/tools I've worked with during my time as a Software Engineer</p>
 				<svg viewBox="0 0 128 128">
 					<path
 						fill="#F0DB4F"
@@ -391,6 +413,13 @@
 					></path>
 				</svg>
 			</div>
+            </section>
+        <div class="footer">
+			<span className="created">Created by: Zachary Kline</span>
+			<p className="created">
+				Icons by:<a href="https://devicon.dev/">DEVICON</a>
+			</p>
+		</div>
 		</div>
 
 		<script

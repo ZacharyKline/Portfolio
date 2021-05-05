@@ -5,19 +5,21 @@
     
 
 }
+
 body {
 
-        background:#39CCCC;
+        background:#90d8d8;
 
 
 }
 .navbar{
     width: 100%;
+    z-index: 1020;
 }
 #Content{
     width:90%;
     margin: 0 auto;
-    background:#39CCCC;
+    background:#90d8d8;
 }
 
 svg {
@@ -57,4 +59,13 @@ svg:hover{
 }
 .singleProject:hover{
     box-shadow: 3px 3px 3px rgb(154, 154, 154);
+}
+
+.resume-section{
+   height: 100vh; 
+
+}
+
+.icons, #about, #projects, #about, .footer {
+    padding-top: 5%;
 }
