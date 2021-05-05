@@ -6,12 +6,18 @@
 
 }
 body {
-    margin-left: 10%;
-    margin-right: 10%;
+
+        background:#39CCCC;
+
+
+}
+.navbar{
+    width: 100%;
 }
 #Content{
-    width:100%;
-    margin:0 auto;
+    width:90%;
+    margin: 0 auto;
+    background:#39CCCC;
 }
 
 svg {

@@ -14,7 +14,7 @@
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light position-fixed">
 			<div class="container-fluid">
 				<a class="navbar-brand" href="#">Zachary Kline</a>
 				<button
@@ -34,13 +34,13 @@
 							<a class="nav-link active" aria-current="page" href="#">Home</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">About</a>
+							<a class="nav-link" href="#about">About</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Projects</a>
+							<a class="nav-link" href="#projects">Projects</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Tech</a>
+							<a class="nav-link" href="#tech">Tech</a>
 						</li>
 						<li class="nav-item">
 							<a
@@ -75,8 +75,14 @@
 			</div>
 		</nav>
 
-		<div id="Content">
-			<div class="about">
+		<div id="Content" class='p-3 mb-2 text-dark'>
+            <div className='titleSpot'>
+						<img className='handsome' src='./assets/images/Zachicon.png' alt='Zachary Kline' />
+						<h1>Zachary Kline</h1>
+						<h3>Software Developer</h3>
+					</div>
+					<p>Full Stack software engineer looking for opportunities locally and globally</p>
+			<div id="about">
 				<h1>About Me:</h1>
 				<p class="background">
 					Originally from Pennsylvania, currently residing in Indiana. After
@@ -94,8 +100,9 @@
 					<a href="mailto: zkline888@gmail.com"> zkline888@gmail.com</a>.
 				</p>
 			</div>
+            <div id='projects'>
 			<div class="projectsList">
-				<div class="projects">
+				<div class="project">
 					<h1>Projects</h1>
 					<p>
 						Click on the title of the project to access the github repo for the
@@ -206,7 +213,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="icons">
+        </div>
+			<div class="icons" id='tech'>
 				<svg viewBox="0 0 128 128">
 					<path
 						fill="#F0DB4F"
