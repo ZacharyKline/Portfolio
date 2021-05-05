@@ -5,7 +5,10 @@
     
 
 }
-
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+}
 #Content{
     width:100%;
     margin:0 auto;
@@ -38,7 +41,7 @@ svg:hover{
 
 .singleProject {
     margin: 10px;
-    width: 25%;
+    width: 30%;
     border: 2px solid rgb(193, 193, 193);
     padding: 5px;
     height: 20%;
