@@ -1,0 +1,1 @@
+I am creating a portfolio for myself utilizing bootstrap and common HTML, CSS, and Javascript. Originally I built out the full portfolio in React, but due to github pages not liking SPAs I decided to rebuild it utilizing bootstrap in HTML, CSS, and Javascript.
