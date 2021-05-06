@@ -63,6 +63,7 @@ svg:hover{
 
 .resume-section{
    height: 100vh; 
+   
 
 }
 
@@ -81,4 +82,25 @@ svg:hover{
 .singleProject img{
     width: 100%; 
 }
+.resume-section{
+   height: fit-content; 
+
+}
  }
+
+ @media (max-width: 600px) {
+    .singleProject {
+    margin: 10px;
+    width: 90%;
+    border: 2px solid rgb(193, 193, 193);
+    padding: 5px;
+    height: 20%;
+}
+.singleProject img{
+    width: 100%; 
+}
+.resume-section{
+   height: fit-content; 
+
+}
+  }
