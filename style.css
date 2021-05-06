@@ -69,3 +69,16 @@ svg:hover{
 .icons, #about, #projects, #about, .footer {
     padding-top: 5%;
 }
+
+@media (max-width: 575.98px) {
+    .singleProject {
+    margin: 10px;
+    width: 90%;
+    border: 2px solid rgb(193, 193, 193);
+    padding: 5px;
+    height: 20%;
+}
+.singleProject img{
+    width: 100%; 
+}
+ }
